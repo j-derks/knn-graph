@@ -16,8 +16,8 @@ library(htmltools)
 
 ###################################################### User input:
 
-data_path <- "SCoPE2_processed_data.csv"       #Change path to your dataset. Rows specify the points you wish to plot. Columns are the features.
-group_names <- c("M0", "U")                  #(OPTIONAL) Rownames should reflect the different groups in your dataset. Specify how to separate them by name.
+data_path <- "SCoPE2_processed_data.csv"     #Change path to your dataset. Rows specify the points you wish to plot. Columns are the features.
+group_names <- c("M0", "U")                  #Rownames should reflect the different groups in your dataset. Specify how to separate them by name.
 ColourScale <- 'd3.scaleOrdinal()
             .domain(["M0", "U"])          
            .range(["green", "purple"]);'     #Specify the names of the points to group/color by (same as group_names) and which color you want each group.     
